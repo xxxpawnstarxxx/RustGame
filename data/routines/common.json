@@ -1,0 +1,84 @@
+[
+  {
+    "id": "peasant_labourer",
+    "name": "Peasant labourer",
+    "description": "A villein or cottar working the open fields from first light. Sunday is kept as a day of rest.",
+    "blocks": [
+      { "start": "04:30", "activity": "rise" },
+      { "start": "05:00", "activity": "field_work" },
+      { "start": "11:30", "activity": "dinner" },
+      { "start": "12:30", "activity": "field_work" },
+      { "start": "18:00", "activity": "household_chores" },
+      { "start": "19:00", "activity": "supper" },
+      { "start": "20:00", "activity": "leisure" },
+      { "start": "21:00", "activity": "sleep" }
+    ],
+    "weekday_overrides": {
+      "Sunday": [
+        { "start": "06:00", "activity": "rise" },
+        { "start": "07:00", "activity": "mass" },
+        { "start": "09:00", "activity": "household_chores" },
+        { "start": "11:30", "activity": "dinner" },
+        { "start": "13:00", "activity": "leisure" },
+        { "start": "19:00", "activity": "supper" },
+        { "start": "21:00", "activity": "sleep" }
+      ]
+    }
+  },
+  {
+    "id": "town_craftsman",
+    "name": "Town craftsman",
+    "description": "A guild master or journeyman keeping workshop hours, with a market morning on Saturday.",
+    "blocks": [
+      { "start": "05:30", "activity": "rise" },
+      { "start": "06:00", "activity": "craft_work" },
+      { "start": "11:00", "activity": "dinner" },
+      { "start": "12:00", "activity": "craft_work" },
+      { "start": "18:30", "activity": "supper" },
+      { "start": "19:30", "activity": "leisure" },
+      { "start": "21:30", "activity": "sleep" }
+    ],
+    "weekday_overrides": {
+      "Saturday": [
+        { "start": "05:30", "activity": "rise" },
+        { "start": "06:00", "activity": "market" },
+        { "start": "11:00", "activity": "dinner" },
+        { "start": "12:00", "activity": "craft_work" },
+        { "start": "16:00", "activity": "household_chores" },
+        { "start": "18:30", "activity": "supper" },
+        { "start": "21:30", "activity": "sleep" }
+      ],
+      "Sunday": [
+        { "start": "06:30", "activity": "rise" },
+        { "start": "07:00", "activity": "mass" },
+        { "start": "09:00", "activity": "leisure" },
+        { "start": "11:30", "activity": "dinner" },
+        { "start": "12:30", "activity": "leisure" },
+        { "start": "18:30", "activity": "supper" },
+        { "start": "21:30", "activity": "sleep" }
+      ]
+    }
+  },
+  {
+    "id": "benedictine_monk",
+    "name": "Benedictine monk",
+    "description": "A choir monk following the canonical hours: Matins, Lauds, Prime, Terce, Sext, None, Vespers and Compline.",
+    "blocks": [
+      { "start": "02:00", "activity": "divine_office" },
+      { "start": "03:30", "activity": "sleep" },
+      { "start": "05:30", "activity": "divine_office" },
+      { "start": "06:30", "activity": "study" },
+      { "start": "08:00", "activity": "divine_office" },
+      { "start": "09:00", "activity": "manual_labour" },
+      { "start": "12:00", "activity": "divine_office" },
+      { "start": "12:30", "activity": "dinner" },
+      { "start": "13:30", "activity": "manual_labour" },
+      { "start": "15:00", "activity": "divine_office" },
+      { "start": "15:30", "activity": "manual_labour" },
+      { "start": "17:30", "activity": "divine_office" },
+      { "start": "18:30", "activity": "supper" },
+      { "start": "19:15", "activity": "divine_office" },
+      { "start": "19:45", "activity": "sleep" }
+    ]
+  }
+]

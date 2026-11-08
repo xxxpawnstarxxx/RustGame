@@ -1,0 +1,10 @@
+[
+  { "id": "arming_sword", "item": "arming_sword", "class": "Sword", "damage": [{ "kind": "Cut", "power": 1.0 }, { "kind": "Pierce", "power": 0.7 }], "reach_m": 0.9, "hands": 1, "skill": "swordsmanship" },
+  { "id": "dagger", "item": "dagger", "class": "Dagger", "damage": [{ "kind": "Pierce", "power": 0.6 }, { "kind": "Cut", "power": 0.4 }], "reach_m": 0.3, "hands": 1, "skill": "close_combat" },
+  { "id": "spear", "item": "spear", "class": "Spear", "damage": [{ "kind": "Pierce", "power": 0.9 }], "reach_m": 2.4, "hands": 2, "skill": "polearms" },
+  { "id": "quarterstaff", "item": "quarterstaff", "class": "Polearm", "damage": [{ "kind": "Blunt", "power": 0.5 }], "reach_m": 2.2, "hands": 2, "skill": "polearms" },
+  { "id": "felling_axe", "item": "iron_axe", "class": "Axe", "damage": [{ "kind": "Cut", "power": 0.85 }], "reach_m": 0.7, "hands": 2, "skill": "axes" },
+  { "id": "billhook", "item": "billhook", "class": "Tool", "damage": [{ "kind": "Cut", "power": 0.6 }], "reach_m": 0.6, "hands": 1, "skill": "axes" },
+  { "id": "longbow", "item": "longbow", "class": "Bow", "damage": [{ "kind": "Pierce", "power": 1.0 }], "reach_m": 1.0, "hands": 2, "skill": "archery", "range_m": 200, "technology": "longbow" },
+  { "id": "crossbow", "item": "crossbow", "class": "Crossbow", "damage": [{ "kind": "Pierce", "power": 1.1 }], "reach_m": 1.0, "hands": 2, "skill": "archery", "range_m": 150, "technology": "crossbow" }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "human", "name": "Human", "mass_kg": 65,
+    "parts": [
+      { "id": "chest", "name": "Chest", "relative_size": 14, "vital": true },
+      { "id": "abdomen", "name": "Abdomen", "parent": "chest", "relative_size": 10, "vital": true },
+      { "id": "pelvis", "name": "Pelvis", "parent": "abdomen", "relative_size": 6 },
+      { "id": "neck", "name": "Neck", "parent": "chest", "relative_size": 2, "vital": true },
+      { "id": "head", "name": "Head", "parent": "neck", "relative_size": 8, "vital": true },
+      { "id": "left_upper_arm", "name": "Left upper arm", "parent": "chest", "relative_size": 4 },
+      { "id": "right_upper_arm", "name": "Right upper arm", "parent": "chest", "relative_size": 4 },
+      { "id": "left_forearm", "name": "Left forearm", "parent": "left_upper_arm", "relative_size": 3 },
+      { "id": "right_forearm", "name": "Right forearm", "parent": "right_upper_arm", "relative_size": 3 },
+      { "id": "left_hand", "name": "Left hand", "parent": "left_forearm", "relative_size": 2, "grasping": true },
+      { "id": "right_hand", "name": "Right hand", "parent": "right_forearm", "relative_size": 2, "grasping": true },
+      { "id": "left_thigh", "name": "Left thigh", "parent": "pelvis", "relative_size": 8, "locomotion": true },
+      { "id": "right_thigh", "name": "Right thigh", "parent": "pelvis", "relative_size": 8, "locomotion": true },
+      { "id": "left_shin", "name": "Left shin", "parent": "left_thigh", "relative_size": 6, "locomotion": true },
+      { "id": "right_shin", "name": "Right shin", "parent": "right_thigh", "relative_size": 6, "locomotion": true },
+      { "id": "left_foot", "name": "Left foot", "parent": "left_shin", "relative_size": 2, "locomotion": true },
+      { "id": "right_foot", "name": "Right foot", "parent": "right_shin", "relative_size": 2, "locomotion": true }
+    ]
+  },
+  {
+    "id": "quadruped", "name": "Four-legged animal", "mass_kg": 50,
+    "parts": [
+      { "id": "torso", "name": "Torso", "relative_size": 40, "vital": true },
+      { "id": "neck", "name": "Neck", "parent": "torso", "relative_size": 6, "vital": true },
+      { "id": "head", "name": "Head", "parent": "neck", "relative_size": 8, "vital": true },
+      { "id": "front_left_leg", "name": "Front left leg", "parent": "torso", "relative_size": 8, "locomotion": true },
+      { "id": "front_right_leg", "name": "Front right leg", "parent": "torso", "relative_size": 8, "locomotion": true },
+      { "id": "hind_left_leg", "name": "Hind left leg", "parent": "torso", "relative_size": 10, "locomotion": true },
+      { "id": "hind_right_leg", "name": "Hind right leg", "parent": "torso", "relative_size": 10, "locomotion": true },
+      { "id": "tail", "name": "Tail", "parent": "torso", "relative_size": 2 }
+    ]
+  }
+]

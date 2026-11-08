@@ -1,0 +1,10 @@
+[
+  { "id": "bruise", "name": "Bruise", "kind": "Bruise", "severity": "Minor", "bleeding_ml_per_min": 0, "pain": 0.2, "healing_days": 5, "infection_risk": 0, "mobility_penalty": 0.05 },
+  { "id": "sprain", "name": "Sprained joint", "kind": "Sprain", "severity": "Moderate", "bleeding_ml_per_min": 0, "pain": 0.4, "healing_days": 14, "infection_risk": 0, "mobility_penalty": 0.35 },
+  { "id": "cut", "name": "Cut", "kind": "Cut", "severity": "Moderate", "bleeding_ml_per_min": 15, "pain": 0.4, "healing_days": 10, "infection_risk": 0.15, "mobility_penalty": 0.1 },
+  { "id": "deep_cut", "name": "Deep wound", "kind": "Cut", "severity": "Severe", "bleeding_ml_per_min": 60, "pain": 0.7, "healing_days": 28, "infection_risk": 0.35, "mobility_penalty": 0.25 },
+  { "id": "puncture", "name": "Puncture wound", "kind": "Puncture", "severity": "Severe", "bleeding_ml_per_min": 30, "pain": 0.6, "healing_days": 21, "infection_risk": 0.4, "mobility_penalty": 0.2 },
+  { "id": "fracture", "name": "Broken bone", "kind": "Fracture", "severity": "Severe", "bleeding_ml_per_min": 5, "pain": 0.85, "healing_days": 50, "infection_risk": 0.1, "mobility_penalty": 0.8 },
+  { "id": "burn", "name": "Burn", "kind": "Burn", "severity": "Moderate", "bleeding_ml_per_min": 0, "pain": 0.6, "healing_days": 20, "infection_risk": 0.3, "mobility_penalty": 0.1 },
+  { "id": "crush", "name": "Crushing injury", "kind": "Crush", "severity": "Critical", "bleeding_ml_per_min": 80, "pain": 0.95, "healing_days": 90, "infection_risk": 0.5, "mobility_penalty": 0.9, "permanent": true }
+]

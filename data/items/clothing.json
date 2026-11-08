@@ -1,0 +1,5 @@
+[
+  { "id": "wool_tunic", "name": "Woollen tunic", "category": "Clothing", "weight_kg": 0.8, "base_value_pence": 30, "materials": ["wool_cloth"] },
+  { "id": "leather_shoes", "name": "Turnshoes", "category": "Clothing", "weight_kg": 0.6, "base_value_pence": 8, "materials": ["leather"] },
+  { "id": "hooded_cloak", "name": "Hooded cloak", "category": "Clothing", "weight_kg": 1.5, "base_value_pence": 40, "materials": ["wool_cloth"] }
+]

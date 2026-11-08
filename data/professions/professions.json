@@ -1,0 +1,9 @@
+[
+  { "id": "ploughman", "name": "Ploughman", "social_rank": "Villein", "skills": ["ploughing", "harvesting", "animal_husbandry"], "routine": "peasant_labourer", "jobs": ["plough_field", "harvest_grain"] },
+  { "id": "shepherd", "name": "Shepherd", "social_rank": "Cottar", "skills": ["shepherding", "animal_husbandry"], "routine": "peasant_labourer", "jobs": ["tend_flock"], "workplaces": ["sheepfold"] },
+  { "id": "blacksmith", "name": "Blacksmith", "social_rank": "Freeman", "skills": ["smithing"], "routine": "town_craftsman", "jobs": ["smith_tools"], "workplaces": ["smithy"] },
+  { "id": "weaver", "name": "Weaver", "social_rank": "Burgess", "skills": ["weaving", "trading"], "routine": "town_craftsman", "jobs": ["weave"] },
+  { "id": "baker", "name": "Baker", "social_rank": "Burgess", "skills": ["baking", "trading"], "routine": "town_craftsman", "jobs": ["bake"] },
+  { "id": "woodward", "name": "Woodward", "social_rank": "Freeman", "skills": ["woodcutting", "hunting"], "routine": "peasant_labourer", "jobs": ["fell_timber", "burn_charcoal"] },
+  { "id": "monk", "name": "Choir monk", "social_rank": "Clergy", "skills": ["letters", "liturgy"], "routine": "benedictine_monk", "workplaces": ["parish_church"] }
+]

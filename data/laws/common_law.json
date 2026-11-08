@@ -1,0 +1,11 @@
+[
+  { "id": "forest_law", "name": "Forest law", "category": "Forest", "description": "Taking the venison or the vert within a royal forest is an offence against the king.", "penalty": { "kind": "Fine", "fine_pence": 240 } },
+  { "id": "assize_of_bread_and_ale", "name": "Assize of bread and ale", "category": "Trade", "description": "The weight of a loaf and the price of ale are fixed by the price of grain.", "penalty": { "kind": "Pillory" } },
+  { "id": "statute_of_labourers", "name": "Statute of Labourers", "category": "Labour", "description": "From 1351 wages are fixed at earlier rates and the able-bodied must accept work.", "penalty": { "kind": "Stocks" } },
+  { "id": "customary_tenure", "name": "Customary tenure", "category": "Property", "description": "Villein holdings are held of the lord according to the custom of the manor, recorded in the manor court rolls." },
+  { "id": "merchet", "name": "Merchet", "category": "Inheritance", "description": "A fine paid to the lord for leave for a villein daughter to marry.", "penalty": { "kind": "Fine", "fine_pence": 24 } },
+  { "id": "heriot", "name": "Heriot", "category": "Inheritance", "description": "On a tenant death the best beast is rendered to the lord." },
+  { "id": "sanctuary", "name": "Sanctuary", "category": "Religious", "description": "A fugitive within consecrated ground may claim sanctuary for forty days." },
+  { "id": "hue_and_cry", "name": "Hue and cry", "category": "Criminal", "description": "All who hear the alarm raised against a felon must join the pursuit.", "penalty": { "kind": "Fine", "fine_pence": 12 } },
+  { "id": "felony", "name": "Felony", "category": "Criminal", "description": "Homicide, robbery, burglary, arson and larceny of goods above twelve pence.", "penalty": { "kind": "Hanging" } }
+]

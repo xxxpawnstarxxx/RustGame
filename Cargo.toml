@@ -1,0 +1,50 @@
+[package]
+name = "medieval_sim"
+version = "0.1.0"
+edition = "2024"
+description = "A 2D top-down tile-based medieval simulation: persistent world, simulated NPCs, settlements, economy and factions."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+# Isolate this package from any Cargo.toml in parent directories.
+[workspace]
+
+[lib]
+name = "medieval_sim"
+path = "src/lib.rs"
+
+[[bin]]
+name = "medieval_sim"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.104"
+directories = "6.0.0"
+egui-macroquad = "0.17.3"
+macroquad = "0.4.16"
+mlua = { version = "0.12.2", features = ["lua54", "vendored", "serde"] }
+pathfinding = "4.16.0"
+rand = "0.10.3"
+rand_chacha = "0.10.0"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = { version = "1.0.154", features = ["float_roundtrip"] }
+thiserror = "2.0.21"
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["fmt", "env-filter"] }
+
+[dev-dependencies]
+proptest = "1.12.0"
+tempfile = "3.27.0"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+# Dependencies (macroquad, egui, Lua) are optimised even in debug builds so the
+# game stays responsive while our own crate keeps fast incremental compiles.
+[profile.dev.package."*"]
+opt-level = 2
+
+# World generation and environment updates are numeric-heavy; light
+# optimisation keeps debug builds and tests responsive.
+[profile.dev]
+opt-level = 1

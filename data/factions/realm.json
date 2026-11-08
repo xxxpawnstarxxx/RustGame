@@ -1,0 +1,18 @@
+[
+  { "id": "crown", "name": "The Crown", "kind": "Crown", "laws": ["forest_law", "statute_of_labourers", "hue_and_cry", "felony"],
+    "relations": [{ "faction": "honour_of_ashcombe", "value": 40 }, { "faction": "diocese_of_wellstow", "value": 30 }, { "faction": "borough_of_market_hollin", "value": 25 }] },
+  { "id": "honour_of_ashcombe", "name": "Honour of Ashcombe", "kind": "Barony", "parent": "crown",
+    "relations": [{ "faction": "crown", "value": 35 }, { "faction": "priory_of_st_aldhelm", "value": -10 }, { "faction": "borough_of_market_hollin", "value": -5 }] },
+  { "id": "manor_of_ashcombe", "name": "Manor of Ashcombe", "kind": "Manor", "parent": "honour_of_ashcombe", "laws": ["customary_tenure", "merchet", "heriot"],
+    "relations": [{ "faction": "honour_of_ashcombe", "value": 60 }, { "faction": "manor_of_thornleigh", "value": 10 }] },
+  { "id": "manor_of_thornleigh", "name": "Manor of Thornleigh", "kind": "Manor", "parent": "honour_of_ashcombe", "laws": ["customary_tenure", "merchet", "heriot"],
+    "relations": [{ "faction": "honour_of_ashcombe", "value": 50 }, { "faction": "manor_of_ashcombe", "value": -15 }] },
+  { "id": "diocese_of_wellstow", "name": "Diocese of Wellstow", "kind": "Church", "laws": ["sanctuary"],
+    "relations": [{ "faction": "crown", "value": 20 }] },
+  { "id": "priory_of_st_aldhelm", "name": "Priory of St Aldhelm", "kind": "Monastery", "parent": "diocese_of_wellstow", "laws": ["sanctuary"],
+    "relations": [{ "faction": "honour_of_ashcombe", "value": -10 }, { "faction": "diocese_of_wellstow", "value": 70 }] },
+  { "id": "borough_of_market_hollin", "name": "Borough of Market Hollin", "kind": "Town", "parent": "crown", "laws": ["assize_of_bread_and_ale"],
+    "relations": [{ "faction": "crown", "value": 30 }, { "faction": "weavers_guild", "value": 40 }] },
+  { "id": "weavers_guild", "name": "Guild of Weavers", "kind": "Guild", "parent": "borough_of_market_hollin",
+    "relations": [{ "faction": "borough_of_market_hollin", "value": 20 }] }
+]

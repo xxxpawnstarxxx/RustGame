@@ -1,0 +1,51 @@
+[
+  {
+    "id": "villein_ploughman", "name": "Villein ploughman", "body": "human", "profession": "ploughman",
+    "age_years": [16, 55],
+    "skills": [{ "skill": "ploughing", "min": 20, "max": 70 }, { "skill": "harvesting", "min": 20, "max": 60 }, { "skill": "animal_husbandry", "min": 10, "max": 50 }],
+    "starting_items": [{ "item": "wool_tunic", "quantity": 1 }, { "item": "leather_shoes", "quantity": 1 }, { "item": "sickle", "quantity": 1 }, { "item": "bread_loaf", "quantity": 2 }],
+    "given_names": ["John", "William", "Thomas", "Richard", "Robert", "Walter", "Henry", "Roger", "Hugh", "Geoffrey", "Adam", "Nicholas"]
+  },
+  {
+    "id": "shepherd", "name": "Shepherd", "body": "human", "profession": "shepherd",
+    "age_years": [12, 60],
+    "skills": [{ "skill": "shepherding", "min": 20, "max": 80 }, { "skill": "animal_husbandry", "min": 20, "max": 60 }],
+    "starting_items": [{ "item": "wool_tunic", "quantity": 1 }, { "item": "hooded_cloak", "quantity": 1 }, { "item": "quarterstaff", "quantity": 1 }, { "item": "cheese", "quantity": 1 }],
+    "given_names": ["Alice", "Agnes", "Joan", "Margery", "Matilda", "Emma", "Walter", "Adam", "Hugh"]
+  },
+  {
+    "id": "blacksmith_master", "name": "Master blacksmith", "body": "human", "profession": "blacksmith",
+    "age_years": [25, 60], "carry_capacity_kg": 35,
+    "skills": [{ "skill": "smithing", "min": 40, "max": 90 }],
+    "starting_items": [{ "item": "hammer", "quantity": 1 }, { "item": "wool_tunic", "quantity": 1 }, { "item": "leather_shoes", "quantity": 1 }],
+    "given_names": ["John", "Richard", "Geoffrey", "Ralph", "Simon"]
+  },
+  {
+    "id": "woodward", "name": "Woodward", "body": "human", "profession": "woodward",
+    "age_years": [20, 55], "can_swim": true,
+    "skills": [{ "skill": "woodcutting", "min": 30, "max": 80 }, { "skill": "hunting", "min": 20, "max": 70 }, { "skill": "swimming", "min": 10, "max": 50 }],
+    "starting_items": [{ "item": "iron_axe", "quantity": 1 }, { "item": "billhook", "quantity": 1 }, { "item": "hooded_cloak", "quantity": 1 }, { "item": "leather_shoes", "quantity": 1 }],
+    "given_names": ["Robert", "William", "Osbert", "Hugh", "Gilbert"]
+  },
+  {
+    "id": "monk", "name": "Benedictine monk", "body": "human", "profession": "monk",
+    "age_years": [18, 70], "walking_speed_mps": 1.25,
+    "skills": [{ "skill": "letters", "min": 30, "max": 80 }, { "skill": "liturgy", "min": 50, "max": 90 }],
+    "starting_items": [{ "item": "wool_tunic", "quantity": 1 }, { "item": "leather_shoes", "quantity": 1 }],
+    "given_names": ["Brother Anselm", "Brother Bede", "Brother Thomas", "Brother Wulfstan", "Brother Benedict"]
+  },
+  {
+    "id": "yeoman_archer", "name": "Yeoman archer", "body": "human",
+    "age_years": [18, 40], "can_swim": true, "carry_capacity_kg": 35,
+    "skills": [{ "skill": "archery", "min": 50, "max": 90 }, { "skill": "close_combat", "min": 20, "max": 50 }],
+    "starting_items": [{ "item": "longbow", "quantity": 1 }, { "item": "arrow", "quantity": 24 }, { "item": "padded_jack", "quantity": 1 }, { "item": "kettle_hat", "quantity": 1 }, { "item": "dagger", "quantity": 1 }, { "item": "leather_shoes", "quantity": 1 }],
+    "given_names": ["John", "Will", "Robin", "Wat", "Hob"]
+  },
+  {
+    "id": "man_at_arms", "name": "Man-at-arms", "body": "human",
+    "age_years": [20, 45], "carry_capacity_kg": 35,
+    "skills": [{ "skill": "swordsmanship", "min": 40, "max": 80 }, { "skill": "polearms", "min": 30, "max": 70 }],
+    "starting_items": [{ "item": "arming_sword", "quantity": 1 }, { "item": "mail_hauberk", "quantity": 1 }, { "item": "breastplate", "quantity": 1 }, { "item": "kettle_hat", "quantity": 1 }, { "item": "padded_jack", "quantity": 1 }, { "item": "spear", "quantity": 1 }],
+    "given_names": ["Ralph", "Guy", "Fulk", "Baldwin", "Odo"]
+  }
+]

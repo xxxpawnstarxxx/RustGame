@@ -1,0 +1,10 @@
+[
+  { "id": "plough_field", "name": "Plough a strip", "skill": "ploughing", "labour_hours": 8, "tools": ["plough_share"], "months": [3, 4, 10, 11] },
+  { "id": "harvest_grain", "name": "Reap grain", "skill": "harvesting", "labour_hours": 10, "tools": ["sickle"], "months": [8, 9] },
+  { "id": "tend_flock", "name": "Tend the flock", "skill": "shepherding", "labour_hours": 10 },
+  { "id": "smith_tools", "name": "Smith tools", "skill": "smithing", "labour_hours": 6, "building": "smithy", "recipe": "smith_axe", "tools": ["hammer"] },
+  { "id": "weave", "name": "Weave cloth", "skill": "weaving", "labour_hours": 12, "recipe": "weave_cloth" },
+  { "id": "bake", "name": "Bake", "skill": "baking", "labour_hours": 2, "recipe": "bake_bread" },
+  { "id": "fell_timber", "name": "Fell timber", "skill": "woodcutting", "labour_hours": 8, "tools": ["iron_axe"], "months": [11, 12, 1, 2] },
+  { "id": "burn_charcoal", "name": "Tend a charcoal clamp", "skill": "woodcutting", "labour_hours": 48, "recipe": "make_charcoal" }
+]

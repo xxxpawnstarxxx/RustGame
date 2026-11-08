@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cruck_cottage", "name": "Cruck cottage", "category": "Dwelling",
+    "layout": ["#####", "#...#", "#...#", "##D##"],
+    "materials": [{ "material": "oak_timber", "kg": 1800 }, { "material": "straw", "kg": 600 }, { "material": "clay", "kg": 2000 }],
+    "build_hours": 400, "technology": "timber_framing"
+  },
+  {
+    "id": "smithy", "name": "Smithy", "category": "Workshop",
+    "layout": ["######", "#....#", "#....D", "######"],
+    "materials": [{ "material": "oak_timber", "kg": 1500 }, { "material": "limestone", "kg": 3000 }],
+    "build_hours": 500, "technology": "stone_masonry"
+  },
+  {
+    "id": "tithe_barn", "name": "Barn", "category": "Agricultural",
+    "layout": ["#######", "#.....#", "#.....#", "#.....#", "###G###"],
+    "materials": [{ "material": "oak_timber", "kg": 6000 }, { "material": "straw", "kg": 1500 }],
+    "build_hours": 1200, "technology": "timber_framing"
+  },
+  {
+    "id": "parish_church", "name": "Parish church", "category": "Religious",
+    "layout": ["#########", "#.......#", "#.......#", "#.......#", "#.......#", "####D####"],
+    "materials": [{ "material": "limestone", "kg": 120000 }, { "material": "oak_timber", "kg": 8000 }],
+    "build_hours": 20000, "technology": "stone_masonry"
+  },
+  {
+    "id": "sheepfold", "name": "Sheepfold", "category": "Enclosure",
+    "layout": ["FFFFFF", "F    F", "F    F", "FFGFFF"],
+    "materials": [{ "material": "oak_timber", "kg": 300 }],
+    "build_hours": 40
+  },
+  {
+    "id": "watermill", "name": "Watermill", "category": "Workshop",
+    "layout": ["#####", "#...#", "#...#", "##D##"],
+    "materials": [{ "material": "oak_timber", "kg": 4000 }, { "material": "limestone", "kg": 8000 }],
+    "build_hours": 2500, "technology": "water_mill"
+  }
+]

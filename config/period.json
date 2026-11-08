@@ -1,0 +1,13 @@
+{
+  "name": "Fourteenth-century England",
+  "region": "Lowland England",
+  "description": "Manorial agriculture, chartered market towns, guild crafts, parish churches and monasteries, feudal lordship and royal justice.",
+  "earliest_year": 1300,
+  "latest_year": 1400,
+  "technologies": [
+    "heavy_plough", "open_field_rotation", "horse_collar", "water_mill", "post_windmill",
+    "fulling_mill", "spinning_wheel", "treadle_loom", "bloomery_iron", "charcoal_burning",
+    "timber_framing", "stone_masonry", "mechanical_clock", "longbow", "crossbow",
+    "mail_armour", "plate_armour", "early_gunpowder_artillery"
+  ]
+}

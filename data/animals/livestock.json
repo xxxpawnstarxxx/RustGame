@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sheep", "name": "Sheep", "body": "quadruped", "diet": "Grazer", "domesticated": true, "mass_kg": 35, "speed_mps": 8,
+    "habitat": { "forest": 0.1, "open": 1.0, "wetland": 0.2, "upland": 0.8 },
+    "density_per_km2": 0, "annual_growth_rate": 0.4, "breeding_months": [3, 4],
+    "products": ["wool", "cheese", "hide"]
+  },
+  {
+    "id": "cattle", "name": "Cattle", "body": "quadruped", "diet": "Grazer", "domesticated": true, "mass_kg": 300, "speed_mps": 7,
+    "habitat": { "forest": 0.2, "open": 1.0, "wetland": 0.5, "upland": 0.3 },
+    "density_per_km2": 0, "annual_growth_rate": 0.2, "breeding_months": [3, 4, 5],
+    "products": ["cheese", "hide"]
+  },
+  {
+    "id": "pig", "name": "Pig", "body": "quadruped", "diet": "Omnivore", "domesticated": true, "mass_kg": 60, "speed_mps": 6,
+    "habitat": { "forest": 0.8, "open": 0.4, "wetland": 0.3, "upland": 0.1 },
+    "density_per_km2": 0, "annual_growth_rate": 1.0, "breeding_months": [2, 3, 8, 9],
+    "products": ["salt_pork", "hide"]
+  },
+  {
+    "id": "horse", "name": "Horse", "body": "quadruped", "diet": "Grazer", "domesticated": true, "mass_kg": 400, "speed_mps": 14,
+    "habitat": { "forest": 0.2, "open": 1.0, "wetland": 0.2, "upland": 0.3 },
+    "density_per_km2": 0, "annual_growth_rate": 0.15, "breeding_months": [4, 5],
+    "products": ["hide"]
+  }
+]

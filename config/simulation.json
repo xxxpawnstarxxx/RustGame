@@ -1,0 +1,16 @@
+{
+  "seed": 1340,
+  "game_seconds_per_tick": 1,
+  "base_ticks_per_real_second": 30.0,
+  "speed_multipliers": [1.0, 3.0, 10.0, 30.0, 60.0],
+  "default_speed_index": 0,
+  "max_ticks_per_frame": 1000,
+  "max_frame_delta_seconds": 0.25,
+  "max_events_per_tick": 20000,
+  "max_timer_firings_per_tick": 1000,
+  "event_history_capacity": 2000,
+  "start_paused": false,
+  "default_world_preset": "lowland_england",
+  "default_world_name": "Ashworth Vale",
+  "save_backups": 3
+}

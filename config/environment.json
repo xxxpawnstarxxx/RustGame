@@ -1,0 +1,18 @@
+{
+  "weather_cell_tiles": 32,
+  "ground_cell_tiles": 4,
+  "wildlife_region_tiles": 64,
+  "snow_threshold_c": 0.5,
+  "melt_mm_per_degree_hour": 0.15,
+  "flood_rise_m_per_mm": 0.02,
+  "max_flood_stage_m": 3.0,
+  "drought_moisture": 0.18,
+  "drought_days": 14.0,
+  "grass_growth_per_day": 0.08,
+  "grass_kg_per_m2": 0.4,
+  "tree_regeneration_per_day": 0.0004,
+  "contamination_decay_per_hour": 0.02,
+  "settlement_contamination_per_hour": 0.004,
+  "fertility_recovery_per_year": 0.05,
+  "forage_fraction_per_day": 0.025
+}

@@ -1,0 +1,21 @@
+[
+  { "id": "heavy_plough", "name": "Heavy mouldboard plough", "description": "Wheeled plough with coulter and mouldboard for heavy clay soils.", "introduced_year": 900 },
+  { "id": "open_field_rotation", "name": "Open-field rotation", "description": "Two- and three-field rotation of strips in common fields.", "introduced_year": 900 },
+  { "id": "horse_collar", "name": "Padded horse collar", "introduced_year": 1100 },
+  { "id": "water_mill", "name": "Water mill", "description": "Undershot and overshot wheels driving millstones.", "introduced_year": 700 },
+  { "id": "post_windmill", "name": "Post windmill", "introduced_year": 1180 },
+  { "id": "fulling_mill", "name": "Fulling mill", "description": "Water-powered hammers for fulling woollen cloth.", "prerequisites": ["water_mill"], "introduced_year": 1185 },
+  { "id": "spinning_wheel", "name": "Spinning wheel", "introduced_year": 1280 },
+  { "id": "treadle_loom", "name": "Horizontal treadle loom", "introduced_year": 1150 },
+  { "id": "bloomery_iron", "name": "Bloomery ironworking", "description": "Direct reduction of ore to wrought iron in a charcoal-fired bloomery.", "prerequisites": ["charcoal_burning"] },
+  { "id": "charcoal_burning", "name": "Charcoal burning", "description": "Slow pyrolysis of wood in covered clamps." },
+  { "id": "timber_framing", "name": "Timber framing", "description": "Cruck and box frames jointed with pegged mortise and tenon." },
+  { "id": "stone_masonry", "name": "Stone masonry", "description": "Dressed and rubble stone construction with lime mortar." },
+  { "id": "mechanical_clock", "name": "Mechanical clock", "description": "Verge-and-foliot clocks in cathedrals and great churches.", "prerequisites": ["bloomery_iron"], "introduced_year": 1283 },
+  { "id": "longbow", "name": "Longbow", "description": "Self bow of yew, drawn to the ear.", "introduced_year": 1250 },
+  { "id": "crossbow", "name": "Crossbow", "introduced_year": 1100 },
+  { "id": "mail_armour", "name": "Mail armour", "description": "Riveted iron rings.", "prerequisites": ["bloomery_iron"] },
+  { "id": "plate_armour", "name": "Plate armour", "description": "Hardened steel plates over mail.", "prerequisites": ["mail_armour"], "introduced_year": 1330 },
+  { "id": "early_gunpowder_artillery", "name": "Early gunpowder artillery", "description": "Small iron and bronze cannon and ribauldequins.", "prerequisites": ["bloomery_iron"], "introduced_year": 1340 },
+  { "id": "printing_press", "name": "Movable-type printing press", "description": "Defined for later periods; not available in the fourteenth century.", "prerequisites": ["bloomery_iron"], "introduced_year": 1476 }
+]

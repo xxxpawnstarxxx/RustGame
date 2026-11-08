@@ -1,0 +1,16 @@
+[
+  { "id": "wrought_iron", "name": "Wrought iron", "category": "Metal", "density_kg_m3": 7700, "hardness": 4.5, "toughness": 0.8, "value_per_kg": 6, "technology": "bloomery_iron" },
+  { "id": "steel", "name": "Steel", "category": "Metal", "density_kg_m3": 7850, "hardness": 5.5, "toughness": 0.85, "value_per_kg": 24, "technology": "bloomery_iron" },
+  { "id": "bronze", "name": "Bronze", "category": "Metal", "density_kg_m3": 8800, "hardness": 3.5, "toughness": 0.6, "value_per_kg": 10 },
+  { "id": "oak_timber", "name": "Oak timber", "category": "Wood", "density_kg_m3": 750, "hardness": 3.0, "toughness": 0.7, "flammable": true, "value_per_kg": 0.3 },
+  { "id": "ash_wood", "name": "Ash wood", "category": "Wood", "density_kg_m3": 680, "hardness": 3.0, "toughness": 0.85, "flammable": true, "value_per_kg": 0.35 },
+  { "id": "yew_wood", "name": "Yew wood", "category": "Wood", "density_kg_m3": 670, "hardness": 2.5, "toughness": 0.9, "flammable": true, "value_per_kg": 0.8 },
+  { "id": "limestone", "name": "Limestone", "category": "Stone", "density_kg_m3": 2600, "hardness": 3.0, "toughness": 0.3, "value_per_kg": 0.05, "technology": "stone_masonry" },
+  { "id": "clay", "name": "Clay and daub", "category": "Earth", "density_kg_m3": 1800, "hardness": 1.0, "toughness": 0.1, "value_per_kg": 0.02 },
+  { "id": "wool_cloth", "name": "Woollen cloth", "category": "Textile", "density_kg_m3": 300, "hardness": 0.5, "toughness": 0.5, "flammable": true, "value_per_kg": 8 },
+  { "id": "linen", "name": "Linen", "category": "Textile", "density_kg_m3": 320, "hardness": 0.5, "toughness": 0.55, "flammable": true, "value_per_kg": 9 },
+  { "id": "leather", "name": "Leather", "category": "Leather", "density_kg_m3": 860, "hardness": 1.0, "toughness": 0.7, "value_per_kg": 5 },
+  { "id": "bone", "name": "Bone and horn", "category": "Bone", "density_kg_m3": 1900, "hardness": 2.5, "toughness": 0.4, "value_per_kg": 0.5 },
+  { "id": "straw", "name": "Straw thatch", "category": "Fibre", "density_kg_m3": 100, "hardness": 0.2, "toughness": 0.2, "flammable": true, "value_per_kg": 0.05 },
+  { "id": "charcoal", "name": "Charcoal", "category": "Organic", "density_kg_m3": 300, "hardness": 0.5, "toughness": 0.1, "flammable": true, "value_per_kg": 1.5, "technology": "charcoal_burning" }
+]

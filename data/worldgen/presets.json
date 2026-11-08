@@ -1,0 +1,142 @@
+[
+  {
+    "id": "lowland_england",
+    "name": "Lowland vale",
+    "description": "A gently rolling vale running down to a western estuary: open fields, scattered woods, brooks, a market town and its villages. 3.2 km square at 5 m per tile.",
+    "width": 640, "height": 640, "chunk_size": 32, "tile_size_m": 5.0,
+    "elevation": {
+      "max_m": 180, "sea_depth_m": 20, "base_frequency": 3.0, "octaves": 6, "persistence": 0.5, "lacunarity": 2.0,
+      "ridge_strength": 0.3, "ridge_frequency": 2.5, "warp_strength": 0.15, "height_exponent": 1.6,
+      "sea_coverage": 0.1, "coast": "West", "coast_strength": 0.6,
+      "hill_m": 70, "mountain_m": 150, "cliff_slope_deg": 38
+    },
+    "hydrology": { "annual_rainfall_mm": 750, "river_threshold_km2": 0.08, "lake_min_depth_m": 4.0, "runoff_coefficient": 0.4, "wide_river_m3s": 0.05, "ford_max_m3s": 0.03 },
+    "climate": {
+      "months": [
+        { "mean_temp_c": 3.5, "diurnal_range_c": 6.0, "precipitation_mm": 65, "rain_days": 13, "wind_mps": 5.5 },
+        { "mean_temp_c": 4.0, "diurnal_range_c": 6.5, "precipitation_mm": 50, "rain_days": 11, "wind_mps": 5.3 },
+        { "mean_temp_c": 6.0, "diurnal_range_c": 8.0, "precipitation_mm": 50, "rain_days": 11, "wind_mps": 5.2 },
+        { "mean_temp_c": 8.0, "diurnal_range_c": 9.0, "precipitation_mm": 50, "rain_days": 10, "wind_mps": 4.8 },
+        { "mean_temp_c": 11.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 10, "wind_mps": 4.4 },
+        { "mean_temp_c": 14.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 9, "wind_mps": 4.0 },
+        { "mean_temp_c": 16.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 9, "wind_mps": 3.8 },
+        { "mean_temp_c": 16.0, "diurnal_range_c": 9.0, "precipitation_mm": 60, "rain_days": 9, "wind_mps": 3.9 },
+        { "mean_temp_c": 13.5, "diurnal_range_c": 8.5, "precipitation_mm": 60, "rain_days": 10, "wind_mps": 4.2 },
+        { "mean_temp_c": 10.0, "diurnal_range_c": 7.5, "precipitation_mm": 70, "rain_days": 12, "wind_mps": 4.7 },
+        { "mean_temp_c": 6.5, "diurnal_range_c": 6.5, "precipitation_mm": 70, "rain_days": 13, "wind_mps": 5.1 },
+        { "mean_temp_c": 4.5, "diurnal_range_c": 6.0, "precipitation_mm": 70, "rain_days": 13, "wind_mps": 5.4 }
+      ],
+      "prevailing_wind_from_deg": 250, "lapse_rate_c_per_km": 6.5, "north_south_gradient_c": 0.6,
+      "coastal_moderation": 0.3, "temperature_variability_c": 2.5, "weather_persistence_hours": 36, "orographic_factor": 0.4
+    },
+    "vegetation": { "forest_coverage": 0.22, "forest_frequency": 5.0 },
+    "resources": [
+      { "resource": "iron_ore", "terrains": ["Hills", "Mountain"], "abundance": 0.05, "cluster_frequency": 6, "amount": [200, 800] },
+      { "resource": "limestone", "terrains": ["Hills", "Lowland"], "min_elevation_m": 40, "abundance": 0.05, "cluster_frequency": 4, "amount": [500, 2000] },
+      { "resource": "clay_pit", "terrains": ["Lowland"], "max_elevation_m": 60, "abundance": 0.03, "cluster_frequency": 8, "amount": [300, 900] },
+      { "resource": "peat_bog", "terrains": ["Marsh"], "abundance": 0.4, "cluster_frequency": 5, "amount": [100, 400] },
+      { "resource": "salt_pan", "terrains": ["Beach", "Marsh"], "max_elevation_m": 4, "abundance": 0.2, "cluster_frequency": 6, "amount": [50, 200] }
+    ],
+    "settlements": {
+      "count": 5, "town_count": 1, "min_spacing_tiles": 150, "water_radius_tiles": 40,
+      "names": ["Market Hollin", "Ashcombe", "Thornleigh", "Brackenridge", "Fennick", "Oakhurst", "Elderby", "Hollowmere"]
+    },
+    "roads": { "extra_connections": 1, "slope_cost": 3.0, "forest_cost": 1.5, "marsh_cost": 3.5, "river_crossing_cost": 80 },
+    "wildlife": [
+      { "animal": "red_deer", "abundance": 0.7 }, { "animal": "roe_deer", "abundance": 0.8 }, { "animal": "fallow_deer", "abundance": 0.5 },
+      { "animal": "wild_boar", "abundance": 0.4 }, { "animal": "brown_hare", "abundance": 0.8 }, { "animal": "rabbit", "abundance": 0.6 },
+      { "animal": "red_fox", "abundance": 0.7 }, { "animal": "wildcat", "abundance": 0.4 }
+    ]
+  },
+  {
+    "id": "test_small",
+    "name": "Small test vale",
+    "description": "A tiny map for automated tests and quick experiments.",
+    "width": 96, "height": 96, "chunk_size": 32, "tile_size_m": 5.0,
+    "elevation": {
+      "max_m": 40, "sea_depth_m": 6, "base_frequency": 2.5, "octaves": 5, "persistence": 0.5, "lacunarity": 2.0,
+      "ridge_strength": 0.3, "ridge_frequency": 2.0, "warp_strength": 0.1, "height_exponent": 1.5,
+      "sea_coverage": 0.1, "coast": "West", "coast_strength": 0.6,
+      "hill_m": 22, "mountain_m": 36, "cliff_slope_deg": 38
+    },
+    "hydrology": { "annual_rainfall_mm": 750, "river_threshold_km2": 0.006, "lake_min_depth_m": 3.0, "runoff_coefficient": 0.4, "wide_river_m3s": 0.05, "ford_max_m3s": 0.03 },
+    "climate": {
+      "months": [
+        { "mean_temp_c": 3.5, "diurnal_range_c": 6.0, "precipitation_mm": 65, "rain_days": 13, "wind_mps": 5.5 },
+        { "mean_temp_c": 4.0, "diurnal_range_c": 6.5, "precipitation_mm": 50, "rain_days": 11, "wind_mps": 5.3 },
+        { "mean_temp_c": 6.0, "diurnal_range_c": 8.0, "precipitation_mm": 50, "rain_days": 11, "wind_mps": 5.2 },
+        { "mean_temp_c": 8.0, "diurnal_range_c": 9.0, "precipitation_mm": 50, "rain_days": 10, "wind_mps": 4.8 },
+        { "mean_temp_c": 11.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 10, "wind_mps": 4.4 },
+        { "mean_temp_c": 14.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 9, "wind_mps": 4.0 },
+        { "mean_temp_c": 16.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 9, "wind_mps": 3.8 },
+        { "mean_temp_c": 16.0, "diurnal_range_c": 9.0, "precipitation_mm": 60, "rain_days": 9, "wind_mps": 3.9 },
+        { "mean_temp_c": 13.5, "diurnal_range_c": 8.5, "precipitation_mm": 60, "rain_days": 10, "wind_mps": 4.2 },
+        { "mean_temp_c": 10.0, "diurnal_range_c": 7.5, "precipitation_mm": 70, "rain_days": 12, "wind_mps": 4.7 },
+        { "mean_temp_c": 6.5, "diurnal_range_c": 6.5, "precipitation_mm": 70, "rain_days": 13, "wind_mps": 5.1 },
+        { "mean_temp_c": 4.5, "diurnal_range_c": 6.0, "precipitation_mm": 70, "rain_days": 13, "wind_mps": 5.4 }
+      ],
+      "prevailing_wind_from_deg": 250, "lapse_rate_c_per_km": 6.5, "north_south_gradient_c": 0.6,
+      "coastal_moderation": 0.3, "temperature_variability_c": 2.5, "weather_persistence_hours": 36, "orographic_factor": 0.4
+    },
+    "vegetation": { "forest_coverage": 0.25, "forest_frequency": 4.0 },
+    "resources": [
+      { "resource": "iron_ore", "terrains": ["Hills", "Mountain"], "abundance": 0.05, "cluster_frequency": 4, "amount": [200, 800] },
+      { "resource": "clay_pit", "terrains": ["Lowland"], "abundance": 0.03, "cluster_frequency": 4, "amount": [300, 900] }
+    ],
+    "settlements": { "count": 2, "town_count": 0, "min_spacing_tiles": 30, "water_radius_tiles": 40, "names": ["Testby", "Mockham"] },
+    "roads": { "extra_connections": 0, "slope_cost": 3.0, "forest_cost": 1.5, "marsh_cost": 3.5, "river_crossing_cost": 80 },
+    "wildlife": [{ "animal": "roe_deer", "abundance": 0.8 }, { "animal": "rabbit", "abundance": 0.6 }, { "animal": "red_fox", "abundance": 0.7 }]
+  },
+  {
+    "id": "large_region",
+    "name": "Large region",
+    "description": "A 10 km square stretch of country with hills, a coast, several rivers, three towns and many villages. Generation takes some seconds.",
+    "width": 2048, "height": 2048, "chunk_size": 64, "tile_size_m": 5.0,
+    "elevation": {
+      "max_m": 260, "sea_depth_m": 25, "base_frequency": 5.0, "octaves": 7, "persistence": 0.5, "lacunarity": 2.0,
+      "ridge_strength": 0.4, "ridge_frequency": 4.0, "warp_strength": 0.12, "height_exponent": 1.7,
+      "sea_coverage": 0.12, "coast": "South", "coast_strength": 0.5,
+      "hill_m": 90, "mountain_m": 200, "cliff_slope_deg": 38
+    },
+    "hydrology": { "annual_rainfall_mm": 800, "river_threshold_km2": 0.15, "lake_min_depth_m": 4.0, "runoff_coefficient": 0.4, "wide_river_m3s": 0.2, "ford_max_m3s": 0.08 },
+    "climate": {
+      "months": [
+        { "mean_temp_c": 3.5, "diurnal_range_c": 6.0, "precipitation_mm": 70, "rain_days": 13, "wind_mps": 5.5 },
+        { "mean_temp_c": 4.0, "diurnal_range_c": 6.5, "precipitation_mm": 55, "rain_days": 11, "wind_mps": 5.3 },
+        { "mean_temp_c": 6.0, "diurnal_range_c": 8.0, "precipitation_mm": 55, "rain_days": 11, "wind_mps": 5.2 },
+        { "mean_temp_c": 8.0, "diurnal_range_c": 9.0, "precipitation_mm": 52, "rain_days": 10, "wind_mps": 4.8 },
+        { "mean_temp_c": 11.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 10, "wind_mps": 4.4 },
+        { "mean_temp_c": 14.5, "diurnal_range_c": 9.5, "precipitation_mm": 55, "rain_days": 9, "wind_mps": 4.0 },
+        { "mean_temp_c": 16.5, "diurnal_range_c": 9.5, "precipitation_mm": 58, "rain_days": 9, "wind_mps": 3.8 },
+        { "mean_temp_c": 16.0, "diurnal_range_c": 9.0, "precipitation_mm": 62, "rain_days": 9, "wind_mps": 3.9 },
+        { "mean_temp_c": 13.5, "diurnal_range_c": 8.5, "precipitation_mm": 65, "rain_days": 10, "wind_mps": 4.2 },
+        { "mean_temp_c": 10.0, "diurnal_range_c": 7.5, "precipitation_mm": 78, "rain_days": 12, "wind_mps": 4.7 },
+        { "mean_temp_c": 6.5, "diurnal_range_c": 6.5, "precipitation_mm": 78, "rain_days": 13, "wind_mps": 5.1 },
+        { "mean_temp_c": 4.5, "diurnal_range_c": 6.0, "precipitation_mm": 78, "rain_days": 13, "wind_mps": 5.4 }
+      ],
+      "prevailing_wind_from_deg": 240, "lapse_rate_c_per_km": 6.5, "north_south_gradient_c": 1.0,
+      "coastal_moderation": 0.35, "temperature_variability_c": 2.5, "weather_persistence_hours": 36, "orographic_factor": 0.5
+    },
+    "vegetation": { "forest_coverage": 0.2, "forest_frequency": 8.0 },
+    "resources": [
+      { "resource": "iron_ore", "terrains": ["Hills", "Mountain"], "abundance": 0.04, "cluster_frequency": 10, "amount": [200, 800] },
+      { "resource": "limestone", "terrains": ["Hills", "Lowland"], "min_elevation_m": 50, "abundance": 0.04, "cluster_frequency": 8, "amount": [500, 2000] },
+      { "resource": "clay_pit", "terrains": ["Lowland"], "max_elevation_m": 70, "abundance": 0.03, "cluster_frequency": 12, "amount": [300, 900] },
+      { "resource": "peat_bog", "terrains": ["Marsh"], "abundance": 0.4, "cluster_frequency": 8, "amount": [100, 400] },
+      { "resource": "salt_pan", "terrains": ["Beach", "Marsh"], "max_elevation_m": 4, "abundance": 0.2, "cluster_frequency": 10, "amount": [50, 200] }
+    ],
+    "settlements": {
+      "count": 24, "town_count": 3, "min_spacing_tiles": 200, "water_radius_tiles": 60,
+      "names": ["Market Hollin", "Ashcombe", "Thornleigh", "Brackenridge", "Fennick", "Oakhurst", "Elderby", "Hollowmere",
+                "Kingsford", "Wellstow", "Harrowden", "Cressing", "Alderwick", "Coldharbour", "Stanmere", "Bramwell",
+                "Ludcote", "Whitby Parva", "Seddon", "Marlow End", "Fairholt", "Rushden", "Combe Abbas", "Netherton",
+                "Upper Sowerby", "Hawkridge", "Tilford", "Brockley"]
+    },
+    "roads": { "extra_connections": 6, "slope_cost": 3.0, "forest_cost": 1.5, "marsh_cost": 3.5, "river_crossing_cost": 80 },
+    "wildlife": [
+      { "animal": "red_deer", "abundance": 0.7 }, { "animal": "roe_deer", "abundance": 0.8 }, { "animal": "fallow_deer", "abundance": 0.5 },
+      { "animal": "wild_boar", "abundance": 0.4 }, { "animal": "brown_hare", "abundance": 0.8 }, { "animal": "rabbit", "abundance": 0.6 },
+      { "animal": "red_fox", "abundance": 0.7 }, { "animal": "wildcat", "abundance": 0.4 }
+    ]
+  }
+]

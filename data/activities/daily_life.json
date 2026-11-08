@@ -1,0 +1,16 @@
+[
+  { "id": "sleep", "name": "Sleep", "category": "Rest", "description": "Night's rest, usually in the household's shared sleeping space." },
+  { "id": "rise", "name": "Rise and dress", "category": "Chores", "description": "Rising, washing, dressing and stirring the hearth." },
+  { "id": "prayer", "name": "Prayer", "category": "Worship", "description": "Private devotion or attendance at a short service." },
+  { "id": "mass", "name": "Hear Mass", "category": "Worship", "description": "Attending Mass at the parish church." },
+  { "id": "divine_office", "name": "Divine Office", "category": "Worship", "description": "One of the canonical hours sung in choir." },
+  { "id": "field_work", "name": "Field work", "category": "Work", "description": "Ploughing, sowing, weeding, harvesting or carting on the open fields." },
+  { "id": "craft_work", "name": "Workshop labour", "category": "Work", "description": "Labour at a trade in the workshop." },
+  { "id": "manual_labour", "name": "Manual labour", "category": "Work", "description": "Gardening, copying or upkeep performed as part of a rule of life." },
+  { "id": "study", "name": "Reading and study", "category": "Leisure", "description": "Lectio divina or other reading." },
+  { "id": "dinner", "name": "Dinner", "category": "Meal", "description": "The main meal of the day, taken around midday." },
+  { "id": "supper", "name": "Supper", "category": "Meal", "description": "A lighter evening meal." },
+  { "id": "household_chores", "name": "Household chores", "category": "Chores", "description": "Fetching water and fuel, tending animals, brewing, mending." },
+  { "id": "market", "name": "Attend market", "category": "Trade", "description": "Buying and selling at the weekly market." },
+  { "id": "leisure", "name": "Leisure", "category": "Leisure", "description": "Rest, conversation, games or the alehouse." }
+]

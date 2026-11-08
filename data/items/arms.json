@@ -1,0 +1,13 @@
+[
+  { "id": "arming_sword", "name": "Arming sword", "category": "Weapon", "weight_kg": 1.1, "base_value_pence": 240, "materials": ["steel"] },
+  { "id": "dagger", "name": "Dagger", "category": "Weapon", "weight_kg": 0.4, "base_value_pence": 12, "materials": ["steel"] },
+  { "id": "spear", "name": "Spear", "category": "Weapon", "weight_kg": 2.0, "base_value_pence": 18, "materials": ["ash_wood", "wrought_iron"] },
+  { "id": "quarterstaff", "name": "Quarterstaff", "category": "Weapon", "weight_kg": 1.8, "base_value_pence": 1, "materials": ["ash_wood"] },
+  { "id": "longbow", "name": "Longbow", "category": "Weapon", "weight_kg": 0.9, "base_value_pence": 18, "materials": ["yew_wood"], "technology": "longbow" },
+  { "id": "crossbow", "name": "Crossbow", "category": "Weapon", "weight_kg": 3.5, "base_value_pence": 60, "materials": ["ash_wood", "wrought_iron"], "technology": "crossbow" },
+  { "id": "arrow", "name": "Sheaf arrow", "category": "Weapon", "weight_kg": 0.06, "stack_size": 24, "base_value_pence": 1, "materials": ["ash_wood", "wrought_iron"] },
+  { "id": "padded_jack", "name": "Padded jack", "category": "Armour", "weight_kg": 3.5, "base_value_pence": 40, "materials": ["linen"] },
+  { "id": "mail_hauberk", "name": "Mail hauberk", "category": "Armour", "weight_kg": 12.0, "base_value_pence": 600, "materials": ["wrought_iron"], "technology": "mail_armour" },
+  { "id": "kettle_hat", "name": "Kettle hat", "category": "Armour", "weight_kg": 1.8, "base_value_pence": 60, "materials": ["wrought_iron"] },
+  { "id": "breastplate", "name": "Breastplate", "category": "Armour", "weight_kg": 6.0, "base_value_pence": 800, "materials": ["steel"], "technology": "plate_armour" }
+]

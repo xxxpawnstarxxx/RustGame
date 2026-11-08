@@ -1,0 +1,52 @@
+[
+  {
+    "id": "red_deer", "name": "Red deer", "body": "quadruped", "diet": "Browser", "mass_kg": 120, "speed_mps": 13,
+    "habitat": { "forest": 0.7, "open": 0.6, "wetland": 0.2, "upland": 0.8 },
+    "density_per_km2": 8, "annual_growth_rate": 0.25, "breeding_months": [6], "migratory": 0.3,
+    "products": ["venison", "hide"],
+    "diseases": [{ "id": "murrain", "name": "Murrain", "transmission_per_day": 0.25, "mortality_per_day": 0.03, "recovery_per_day": 0.08, "outbreak_chance_per_year": 0.15 }]
+  },
+  {
+    "id": "roe_deer", "name": "Roe deer", "body": "quadruped", "diet": "Browser", "mass_kg": 22, "speed_mps": 12,
+    "habitat": { "forest": 0.9, "open": 0.4, "wetland": 0.2, "upland": 0.3 },
+    "density_per_km2": 15, "annual_growth_rate": 0.35, "breeding_months": [5, 6], "migratory": 0.1,
+    "products": ["venison", "hide"],
+    "diseases": [{ "id": "liver_fluke", "name": "Liver fluke", "transmission_per_day": 0.12, "mortality_per_day": 0.01, "recovery_per_day": 0.03, "outbreak_chance_per_year": 0.2 }]
+  },
+  {
+    "id": "fallow_deer", "name": "Fallow deer", "body": "quadruped", "diet": "Grazer", "mass_kg": 55, "speed_mps": 13,
+    "habitat": { "forest": 0.6, "open": 0.8, "wetland": 0.1, "upland": 0.2 },
+    "density_per_km2": 20, "annual_growth_rate": 0.3, "breeding_months": [6], "migratory": 0.1,
+    "products": ["venison", "hide"]
+  },
+  {
+    "id": "wild_boar", "name": "Wild boar", "body": "quadruped", "diet": "Omnivore", "mass_kg": 80, "speed_mps": 11,
+    "habitat": { "forest": 1.0, "open": 0.2, "wetland": 0.5, "upland": 0.2 },
+    "density_per_km2": 2, "annual_growth_rate": 0.6, "breeding_months": [3, 4], "migratory": 0.2,
+    "products": ["hide"]
+  },
+  {
+    "id": "brown_hare", "name": "Brown hare", "body": "quadruped", "diet": "Grazer", "mass_kg": 3.5, "speed_mps": 15,
+    "habitat": { "forest": 0.1, "open": 1.0, "wetland": 0.1, "upland": 0.4 },
+    "density_per_km2": 25, "annual_growth_rate": 0.9, "breeding_months": [2, 3, 4, 5, 6, 7, 8, 9], "migratory": 0.05
+  },
+  {
+    "id": "rabbit", "name": "Rabbit", "body": "quadruped", "diet": "Grazer", "mass_kg": 1.6, "speed_mps": 11,
+    "habitat": { "forest": 0.2, "open": 1.0, "wetland": 0.0, "upland": 0.3 },
+    "density_per_km2": 200, "annual_growth_rate": 3.0, "breeding_months": [2, 3, 4, 5, 6, 7, 8], "migratory": 0.02,
+    "diseases": [{ "id": "coccidiosis", "name": "Coccidiosis", "transmission_per_day": 0.3, "mortality_per_day": 0.05, "recovery_per_day": 0.1, "outbreak_chance_per_year": 0.3 }]
+  },
+  {
+    "id": "red_fox", "name": "Red fox", "body": "quadruped", "diet": "Carnivore", "mass_kg": 6, "speed_mps": 13,
+    "habitat": { "forest": 0.5, "open": 0.7, "wetland": 0.3, "upland": 0.4 },
+    "density_per_km2": 2, "annual_growth_rate": 0.6, "breeding_months": [3, 4], "territory_km2": 2.5,
+    "prey": ["rabbit", "brown_hare"], "food_kg_per_day": 0.5, "migratory": 0.2,
+    "diseases": [{ "id": "mange", "name": "Mange", "transmission_per_day": 0.15, "mortality_per_day": 0.01, "recovery_per_day": 0.02, "outbreak_chance_per_year": 0.1 }]
+  },
+  {
+    "id": "wildcat", "name": "Wildcat", "body": "quadruped", "diet": "Carnivore", "mass_kg": 4.5, "speed_mps": 12,
+    "habitat": { "forest": 0.9, "open": 0.3, "wetland": 0.2, "upland": 0.7 },
+    "density_per_km2": 0.5, "annual_growth_rate": 0.4, "breeding_months": [4, 5], "territory_km2": 3,
+    "prey": ["rabbit", "brown_hare"], "food_kg_per_day": 0.3, "migratory": 0.1
+  }
+]

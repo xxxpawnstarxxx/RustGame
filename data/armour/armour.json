@@ -1,0 +1,9 @@
+[
+  { "id": "padded_jack", "item": "padded_jack", "layer": "Padding", "material": "linen", "coverage": ["chest", "abdomen", "left_upper_arm", "right_upper_arm"], "protection": { "cut": 0.3, "pierce": 0.2, "blunt": 0.35 } },
+  { "id": "mail_hauberk", "item": "mail_hauberk", "layer": "Mail", "material": "wrought_iron", "coverage": ["chest", "abdomen", "pelvis", "left_upper_arm", "right_upper_arm", "left_forearm", "right_forearm", "left_thigh", "right_thigh"], "protection": { "cut": 0.8, "pierce": 0.45, "blunt": 0.2 }, "technology": "mail_armour" },
+  { "id": "kettle_hat", "item": "kettle_hat", "layer": "Plate", "material": "wrought_iron", "coverage": ["head"], "protection": { "cut": 0.8, "pierce": 0.6, "blunt": 0.4 } },
+  { "id": "breastplate", "item": "breastplate", "layer": "Plate", "material": "steel", "coverage": ["chest", "abdomen"], "protection": { "cut": 0.9, "pierce": 0.75, "blunt": 0.5 }, "technology": "plate_armour" },
+  { "id": "wool_tunic", "item": "wool_tunic", "layer": "Over", "material": "wool_cloth", "coverage": ["chest", "abdomen", "left_upper_arm", "right_upper_arm"], "protection": { "cut": 0.05, "pierce": 0.02, "blunt": 0.05 } },
+  { "id": "hooded_cloak", "item": "hooded_cloak", "layer": "Over", "material": "wool_cloth", "coverage": ["head", "neck", "chest"], "protection": { "cut": 0.05, "pierce": 0.02, "blunt": 0.08 } },
+  { "id": "leather_shoes", "item": "leather_shoes", "layer": "Over", "material": "leather", "coverage": ["left_foot", "right_foot"], "protection": { "cut": 0.1, "pierce": 0.05, "blunt": 0.05 } }
+]

@@ -1,0 +1,9 @@
+[
+  { "id": "oak", "name": "Pedunculate oak", "timber": "oak_log", "deciduous": true, "growth_rate": 0.12, "moisture": [0.35, 0.75], "temperature_c": [7, 12], "max_elevation_m": 400, "leaf_out_month": 5, "leaf_fall_month": 11 },
+  { "id": "beech", "name": "Beech", "timber": "beech_log", "deciduous": true, "growth_rate": 0.15, "moisture": [0.3, 0.65], "temperature_c": [7, 11.5], "max_elevation_m": 450, "leaf_out_month": 5, "leaf_fall_month": 11 },
+  { "id": "ash", "name": "Ash", "timber": "ash_log", "deciduous": true, "growth_rate": 0.2, "moisture": [0.4, 0.8], "temperature_c": [7, 12], "max_elevation_m": 450, "leaf_out_month": 5, "leaf_fall_month": 10 },
+  { "id": "birch", "name": "Silver birch", "timber": "birch_log", "deciduous": true, "growth_rate": 0.3, "moisture": [0.2, 0.8], "temperature_c": [3, 11], "max_elevation_m": 700, "leaf_out_month": 4, "leaf_fall_month": 10 },
+  { "id": "alder", "name": "Alder", "timber": "alder_log", "deciduous": true, "growth_rate": 0.25, "moisture": [0.7, 1.0], "temperature_c": [6, 12], "max_elevation_m": 300, "leaf_out_month": 4, "leaf_fall_month": 11 },
+  { "id": "willow", "name": "Crack willow", "timber": "willow_log", "deciduous": true, "growth_rate": 0.3, "moisture": [0.75, 1.0], "temperature_c": [6, 13], "max_elevation_m": 250, "leaf_out_month": 4, "leaf_fall_month": 11 },
+  { "id": "scots_pine", "name": "Scots pine", "timber": "pine_log", "growth_rate": 0.18, "moisture": [0.2, 0.6], "temperature_c": [3, 10], "max_elevation_m": 800 }
+]

@@ -1,0 +1,11 @@
+[
+  { "id": "iron_axe", "name": "Felling axe", "category": "Tool", "weight_kg": 1.8, "base_value_pence": 12, "materials": ["wrought_iron", "ash_wood"], "tags": ["felling"] },
+  { "id": "billhook", "name": "Billhook", "category": "Tool", "weight_kg": 0.9, "base_value_pence": 8, "materials": ["wrought_iron", "ash_wood"], "tags": ["hedging"] },
+  { "id": "sickle", "name": "Sickle", "category": "Tool", "weight_kg": 0.4, "base_value_pence": 6, "materials": ["wrought_iron"], "tags": ["reaping"] },
+  { "id": "scythe", "name": "Scythe", "category": "Tool", "weight_kg": 2.5, "base_value_pence": 18, "materials": ["wrought_iron", "ash_wood"], "tags": ["mowing"] },
+  { "id": "spade", "name": "Iron-shod spade", "category": "Tool", "weight_kg": 1.6, "base_value_pence": 8, "materials": ["oak_timber", "wrought_iron"] },
+  { "id": "plough_share", "name": "Ploughshare and coulter", "category": "Tool", "weight_kg": 6.0, "base_value_pence": 30, "materials": ["wrought_iron"], "technology": "heavy_plough" },
+  { "id": "hammer", "name": "Forging hammer", "category": "Tool", "weight_kg": 1.0, "base_value_pence": 6, "materials": ["wrought_iron", "ash_wood"] },
+  { "id": "wooden_bucket", "name": "Wooden bucket", "category": "Container", "weight_kg": 1.5, "base_value_pence": 4, "materials": ["oak_timber"] },
+  { "id": "sack", "name": "Hemp sack", "category": "Container", "weight_kg": 0.5, "base_value_pence": 2, "materials": ["linen"] }
+]

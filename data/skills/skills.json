@@ -1,0 +1,23 @@
+[
+  { "id": "ploughing", "name": "Ploughing", "category": "Agriculture" },
+  { "id": "harvesting", "name": "Reaping and harvest", "category": "Agriculture" },
+  { "id": "animal_husbandry", "name": "Animal husbandry", "category": "Husbandry" },
+  { "id": "shepherding", "name": "Shepherding", "category": "Husbandry" },
+  { "id": "woodcutting", "name": "Woodmanship", "category": "Physical", "description": "Felling, coppicing and charcoal burning." },
+  { "id": "hunting", "name": "Hunting and trapping", "category": "Physical" },
+  { "id": "swimming", "name": "Swimming", "category": "Physical" },
+  { "id": "carpentry", "name": "Carpentry", "category": "Building" },
+  { "id": "masonry", "name": "Masonry", "category": "Building" },
+  { "id": "smithing", "name": "Smithing", "category": "Craft" },
+  { "id": "weaving", "name": "Weaving", "category": "Craft" },
+  { "id": "baking", "name": "Baking and cookery", "category": "Craft" },
+  { "id": "brewing", "name": "Brewing", "category": "Craft" },
+  { "id": "swordsmanship", "name": "Swordsmanship", "category": "Combat" },
+  { "id": "polearms", "name": "Spear and staff", "category": "Combat" },
+  { "id": "axes", "name": "Axe and bill", "category": "Combat" },
+  { "id": "archery", "name": "Archery", "category": "Combat" },
+  { "id": "close_combat", "name": "Close combat", "category": "Combat" },
+  { "id": "trading", "name": "Bargaining", "category": "Social" },
+  { "id": "letters", "name": "Reading and writing", "category": "Learning" },
+  { "id": "liturgy", "name": "Liturgy", "category": "Learning" }
+]

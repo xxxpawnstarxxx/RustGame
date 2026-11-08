@@ -1,0 +1,7 @@
+[
+  { "id": "iron_ore", "name": "Ironstone", "kind": "Ore", "item": "iron_ore", "technology": "bloomery_iron" },
+  { "id": "limestone", "name": "Limestone outcrop", "kind": "Stone", "item": "building_stone", "technology": "stone_masonry" },
+  { "id": "clay_pit", "name": "Clay pit", "kind": "Clay", "item": "clay_lump" },
+  { "id": "peat_bog", "name": "Peat bog", "kind": "Peat", "item": "peat_turf", "renewable": true, "regeneration_per_year": 1 },
+  { "id": "salt_pan", "name": "Salt pan", "kind": "Salt", "item": "salt", "renewable": true, "regeneration_per_year": 40 }
+]

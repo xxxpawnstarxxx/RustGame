@@ -1,0 +1,9 @@
+[
+  { "id": "bake_bread", "name": "Bake bread", "inputs": [{ "item": "wheat", "quantity": 1 }], "outputs": [{ "item": "bread_loaf", "quantity": 2 }], "skill": "baking", "labour_hours": 2 },
+  { "id": "brew_ale", "name": "Brew ale", "inputs": [{ "item": "barley", "quantity": 3 }], "outputs": [{ "item": "ale", "quantity": 1 }], "skill": "brewing", "labour_hours": 8 },
+  { "id": "cook_pottage", "name": "Cook pottage", "inputs": [{ "item": "peas", "quantity": 1 }, { "item": "oats", "quantity": 1 }], "outputs": [{ "item": "pottage", "quantity": 1 }], "skill": "baking", "labour_hours": 2 },
+  { "id": "smith_axe", "name": "Forge a felling axe", "inputs": [{ "item": "iron_ore", "quantity": 4 }, { "item": "charcoal_sack", "quantity": 1 }], "outputs": [{ "item": "iron_axe", "quantity": 1 }], "tools": ["hammer"], "building": "smithy", "skill": "smithing", "labour_hours": 6, "technology": "bloomery_iron" },
+  { "id": "make_charcoal", "name": "Burn charcoal", "inputs": [{ "item": "oak_log", "quantity": 1 }], "outputs": [{ "item": "charcoal_sack", "quantity": 1 }], "skill": "woodcutting", "labour_hours": 48, "technology": "charcoal_burning" },
+  { "id": "weave_cloth", "name": "Weave and tailor a tunic", "inputs": [{ "item": "wool", "quantity": 3 }], "outputs": [{ "item": "wool_tunic", "quantity": 1 }], "skill": "weaving", "labour_hours": 12, "technology": "treadle_loom" },
+  { "id": "fletch_arrows", "name": "Fletch arrows", "inputs": [{ "item": "ash_log", "quantity": 1 }], "outputs": [{ "item": "arrow", "quantity": 24 }], "tools": ["dagger"], "skill": "carpentry", "labour_hours": 6 }
+]

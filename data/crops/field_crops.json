@@ -1,0 +1,8 @@
+[
+  { "id": "winter_wheat", "name": "Winter wheat", "item": "wheat", "sow_months": [10, 11], "growth_days": 280, "yield_kg_per_acre": 280, "min_temperature_c": 3, "optimal_temperature_c": 18, "water_need": 0.5, "fertility_use": 0.25, "frost_tolerant": true, "technology": "open_field_rotation" },
+  { "id": "barley", "name": "Spring barley", "item": "barley", "sow_months": [3, 4], "growth_days": 120, "yield_kg_per_acre": 330, "min_temperature_c": 4, "optimal_temperature_c": 16, "water_need": 0.45, "fertility_use": 0.2 },
+  { "id": "oats", "name": "Oats", "item": "oats", "sow_months": [3], "growth_days": 130, "yield_kg_per_acre": 300, "min_temperature_c": 3, "optimal_temperature_c": 15, "water_need": 0.6, "fertility_use": 0.15 },
+  { "id": "winter_rye", "name": "Winter rye", "item": "rye", "sow_months": [9, 10], "growth_days": 290, "yield_kg_per_acre": 260, "min_temperature_c": 1, "optimal_temperature_c": 15, "water_need": 0.4, "fertility_use": 0.15, "frost_tolerant": true },
+  { "id": "peas", "name": "Field peas", "item": "peas", "sow_months": [2, 3], "growth_days": 110, "yield_kg_per_acre": 250, "min_temperature_c": 5, "optimal_temperature_c": 16, "water_need": 0.5, "fertility_use": 0.0 },
+  { "id": "flax", "name": "Flax", "item": "flax_fibre", "sow_months": [4], "growth_days": 100, "yield_kg_per_acre": 200, "min_temperature_c": 6, "optimal_temperature_c": 17, "water_need": 0.6, "fertility_use": 0.3 }
+]

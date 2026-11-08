@@ -1,0 +1,18 @@
+[
+  { "id": "iron_ore", "name": "Iron ore", "category": "RawMaterial", "weight_kg": 1.0, "stack_size": 50, "base_value_pence": 0.5 },
+  { "id": "building_stone", "name": "Building stone", "category": "RawMaterial", "weight_kg": 25.0, "stack_size": 4, "base_value_pence": 2, "materials": ["limestone"] },
+  { "id": "clay_lump", "name": "Clay", "category": "RawMaterial", "weight_kg": 10.0, "stack_size": 5, "base_value_pence": 0.2, "materials": ["clay"] },
+  { "id": "peat_turf", "name": "Peat turf", "category": "RawMaterial", "weight_kg": 3.0, "stack_size": 20, "base_value_pence": 0.2 },
+  { "id": "salt", "name": "Salt (kg)", "category": "RawMaterial", "weight_kg": 1.0, "stack_size": 50, "base_value_pence": 2 },
+  { "id": "wool", "name": "Raw wool (kg)", "category": "RawMaterial", "weight_kg": 1.0, "stack_size": 20, "base_value_pence": 4 },
+  { "id": "flax_fibre", "name": "Flax fibre (kg)", "category": "RawMaterial", "weight_kg": 1.0, "stack_size": 20, "base_value_pence": 3 },
+  { "id": "hide", "name": "Raw hide", "category": "RawMaterial", "weight_kg": 8.0, "base_value_pence": 15 },
+  { "id": "charcoal_sack", "name": "Sack of charcoal", "category": "RawMaterial", "weight_kg": 15.0, "stack_size": 4, "base_value_pence": 6, "materials": ["charcoal"] },
+  { "id": "oak_log", "name": "Oak log", "category": "RawMaterial", "weight_kg": 60.0, "base_value_pence": 12, "materials": ["oak_timber"] },
+  { "id": "beech_log", "name": "Beech log", "category": "RawMaterial", "weight_kg": 55.0, "base_value_pence": 8 },
+  { "id": "ash_log", "name": "Ash log", "category": "RawMaterial", "weight_kg": 50.0, "base_value_pence": 10, "materials": ["ash_wood"] },
+  { "id": "birch_log", "name": "Birch log", "category": "RawMaterial", "weight_kg": 45.0, "base_value_pence": 5 },
+  { "id": "alder_log", "name": "Alder log", "category": "RawMaterial", "weight_kg": 40.0, "base_value_pence": 5 },
+  { "id": "willow_log", "name": "Willow poles", "category": "RawMaterial", "weight_kg": 30.0, "base_value_pence": 4 },
+  { "id": "pine_log", "name": "Pine log", "category": "RawMaterial", "weight_kg": 45.0, "base_value_pence": 7 }
+]

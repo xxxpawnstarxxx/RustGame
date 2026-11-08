@@ -1,0 +1,13 @@
+[
+  { "id": "wheat", "name": "Wheat (kg)", "category": "Food", "weight_kg": 1.0, "stack_size": 60, "base_value_pence": 0.6 },
+  { "id": "barley", "name": "Barley (kg)", "category": "Food", "weight_kg": 1.0, "stack_size": 60, "base_value_pence": 0.4 },
+  { "id": "oats", "name": "Oats (kg)", "category": "Food", "weight_kg": 1.0, "stack_size": 60, "base_value_pence": 0.3 },
+  { "id": "rye", "name": "Rye (kg)", "category": "Food", "weight_kg": 1.0, "stack_size": 60, "base_value_pence": 0.45 },
+  { "id": "peas", "name": "Dried peas (kg)", "category": "Food", "weight_kg": 1.0, "stack_size": 60, "base_value_pence": 0.4 },
+  { "id": "bread_loaf", "name": "Loaf of bread", "category": "Food", "weight_kg": 0.5, "stack_size": 10, "base_value_pence": 0.5 },
+  { "id": "pottage", "name": "Pottage", "category": "Food", "weight_kg": 1.0, "base_value_pence": 0.3 },
+  { "id": "cheese", "name": "Cheese", "category": "Food", "weight_kg": 1.0, "stack_size": 10, "base_value_pence": 3 },
+  { "id": "salt_pork", "name": "Salt pork", "category": "Food", "weight_kg": 1.0, "stack_size": 10, "base_value_pence": 4 },
+  { "id": "ale", "name": "Ale (gallon)", "category": "Food", "weight_kg": 4.5, "stack_size": 4, "base_value_pence": 1 },
+  { "id": "venison", "name": "Venison", "category": "Food", "weight_kg": 1.0, "stack_size": 10, "base_value_pence": 5 }
+]

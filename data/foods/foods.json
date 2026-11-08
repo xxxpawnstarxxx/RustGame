@@ -1,0 +1,13 @@
+[
+  { "id": "wheat", "item": "wheat", "group": "Grain", "kcal_per_kg": 3300, "preserved": true },
+  { "id": "barley", "item": "barley", "group": "Grain", "kcal_per_kg": 3500, "preserved": true },
+  { "id": "oats", "item": "oats", "group": "Grain", "kcal_per_kg": 3890, "preserved": true },
+  { "id": "rye", "item": "rye", "group": "Grain", "kcal_per_kg": 3380, "preserved": true },
+  { "id": "peas", "item": "peas", "group": "Vegetable", "kcal_per_kg": 3400, "preserved": true },
+  { "id": "bread_loaf", "item": "bread_loaf", "group": "Bread", "kcal_per_kg": 2650, "spoilage_days": 5 },
+  { "id": "pottage", "item": "pottage", "group": "Pottage", "kcal_per_kg": 900, "spoilage_days": 2 },
+  { "id": "cheese", "item": "cheese", "group": "Dairy", "kcal_per_kg": 3500, "spoilage_days": 120, "preserved": true },
+  { "id": "salt_pork", "item": "salt_pork", "group": "Meat", "kcal_per_kg": 4000, "spoilage_days": 270, "preserved": true },
+  { "id": "ale", "item": "ale", "group": "Drink", "kcal_per_kg": 400, "spoilage_days": 7 },
+  { "id": "venison", "item": "venison", "group": "Meat", "kcal_per_kg": 1200, "spoilage_days": 4 }
+]
